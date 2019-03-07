@@ -52,7 +52,7 @@ function Invoke-OctopusApiOperation
     $ProgressPreference = "SilentlyContinue";
     Set-StrictMode -Version "Latest";
 
-    Test-OctopusApiConnectivity;
+    Test-OctopusApiConnectivity -OctopusURI $OctopusUri -OctopusApiKey $OctopusApiKey
 
     $Uri      = $OctopusUri + $Uri;
     $cacheKey = "$Uri-$Method";
