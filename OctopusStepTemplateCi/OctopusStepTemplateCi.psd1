@@ -153,7 +153,17 @@ FunctionsToExport = @(
     'New-ScriptValidationTest',
     'New-StepTemplate',
     'Sync-ScriptModule',
-    'Sync-StepTemplate'
+    'Sync-StepTemplate',
+	'Get-OctopusApiActionTemplate',
+	'New-OctopusApiActionTemplate',
+	'Update-OctopusApiActionTemplate',
+	'Get-OctopusApiLibraryVariableSet',
+	'New-OctopusApiLibraryVariableSet',
+	'Update-OctopusApiLibraryVariableSet',
+	'Get-OctopusApiObject',
+	'New-OctopusApiObject',
+	'Update-OctopusApiObject',
+	'Compare-StepTemplate'
 )
 
 # Cmdlets to export from this module
